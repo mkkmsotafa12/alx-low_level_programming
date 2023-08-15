@@ -3,10 +3,10 @@
 /**
  * Print last_digit - Prints the last digit of a number
  * @c: The number to be treated
- * Return: Value of the last digit fo number
+ * Return: Value of the last digit of number
  */
 
-int Print last_digit(int n)
+int print last_digit(int n)
 
 {
 
