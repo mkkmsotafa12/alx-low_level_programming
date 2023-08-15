@@ -6,7 +6,7 @@
  * Return: Value of the last digit fo number
  */
 
-int Print last_digit(int c)
+int Print last_digit(int n)
 
 {
 
