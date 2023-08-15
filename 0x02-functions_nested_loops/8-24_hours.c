@@ -5,7 +5,7 @@
  * Return: ...
  */
 
-void jack_Bauer(void)
+void jack_bauer(void)
 
 {
 
