@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *main - Entry point
-*Discription: 'Print alphabets lowercase and uppercase'
+*Discription: 'Print _putchar to stdout'
 *Return: Always 0
 */
 int main(void)
