@@ -6,7 +6,7 @@
  *
  * Return: n
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 int i;
 i = 0;
@@ -16,5 +16,5 @@ while (n[i] != '\0')
 		n[i] = n[i] - 32;
 	i++;
 }
-return (0);
+return (n);
 }
