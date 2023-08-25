@@ -5,6 +5,7 @@
  * @dest: input value
  * @src: input value
  * @n: input value
+ * @_strncpy
  * Rteurn: dest
  *
  */
@@ -13,20 +14,20 @@ char *_strncpy(char *dest, char *src, int n)
 
 {
 
-int j;
+int _strncpy;
 
-j = 0;
+_strncpy = 0;
 
-while (j < n && src[j] != '\0')
+while (_strncpy < n && src[_strncpy] != '\0')
 {
-dest[j] = src[j];
-j++;
+dest[_strncpy] = src[_strncpy];
+_strncpy++;
 }
 
-while (j < n)
+while (_strncpy < n)
 {
-dest[j] = '\0';
-j++;
+dest[_strncpy] = '\0';
+_strncpy++;
 }
 
 return (dest);
