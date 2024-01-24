@@ -13,4 +13,4 @@ def island_perimeter(grid):
     if _ == 0:
         return 0
     
-    return (_ * 2) + 2
+    return _ * 2  
