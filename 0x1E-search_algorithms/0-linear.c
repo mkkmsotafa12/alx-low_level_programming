@@ -7,9 +7,9 @@
 * @value: is the value to search for
 * Return: int
 */
-int linear_search(int *array, size_t size, int value);
+int linear_search(int *array, size_t size, int value)
 {
-    size_t i;
+    int i;
 
     if (array == NULL || !array)
     return (-1);
